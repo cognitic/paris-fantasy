@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#121a2b">
+  <title>Paris Fantasy</title>
+  <style>
+    html, body { margin: 0; width: 100%; height: 100%; overflow: hidden; background: #121a2b; }
+    body { display: grid; place-items: center; }
+    canvas { width: min(100vw, 177.78vh); height: min(100vh, 56.25vw); image-rendering: pixelated; outline: none; }
+  </style>
+</head>
+<body>
+  <canvas id="glcanvas" tabindex="1"></canvas>
+  <script src="miniquad-gl.js"></script>
+  <script>load("game.wasm");</script>
+</body>
+</html>

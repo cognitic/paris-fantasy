@@ -1,6 +1,6 @@
 # Paris Fantasy
 
-Old school RPG built with Macroquad : explore Paris Monuments, survive french food and become the tourist trap king.
+Old school RPG built with Macroquad : explore Paris monuments, survive french food and become the tourist trap king. [Try it online](https://cognitic.github.io/paris-fantasy/web/index.html)
 
 ## Play locally
 
